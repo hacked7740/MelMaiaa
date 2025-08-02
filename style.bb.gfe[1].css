@@ -1,0 +1,78 @@
+#wowslider-container {
+	Z-INDEX: 100; MARGIN: 0px auto; WIDTH: 480; ZOOM: 1; POSITION: none;
+}
+#wowslider-images {
+	OVERFLOW: hidden; WIDTH: 400; HEIGHT: 170
+}
+#wowslider-images A {
+	COLOR: transparent
+}
+#wowslider-images IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; LEFT: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; TOP: 0px
+}
+#wowslider-container A {
+	BORDER-TOP-STYLE: none; 
+	BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; 
+	TEXT-DECORATION: none; 
+	BORDER-BOTTOM-STYLE: none; 
+	outline: none
+}
+/* This is where you adjust the position of the bullets */
+#wowslider-container .ws_bullets {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 0px; Z-INDEX: 1001; RIGHT: 0px; FLOAT: left; 
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; POSITION: absolute; margin-left: -12px;
+}
+#wowslider-container .ws_bullets A {
+	BORDER-RIGHT: #cecece 1px solid; 
+	BORDER-TOP: #cecece 1px solid; FLOAT: left; BACKGROUND-IMAGE: url(data:image/gif;base64,); MARGIN-LEFT: 5px; 
+	BORDER-LEFT: #cecece 1px solid; WIDTH: 8px; COLOR: #76b900; TEXT-INDENT: -1000px; 
+	BORDER-BOTTOM: #cecece 1px solid; POSITION: relative; HEIGHT: 8px
+}
+#wowslider-container .ws_selbull {
+	COLOR: #ffffff; BACKGROUND-COLOR: #76b900
+}
+#wowslider-container .ws_bullets A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #ddffa0
+}
+#wowslider-container .ws_overbull {
+	COLOR: #ffffff; BACKGROUND-COLOR: #76b900
+}
+/*#wowslider-container A.ws_next {MARGIN-TOP: -16px; DISPLAY: block; Z-INDEX: 1001; BACKGROUND-IMAGE: url(./arrows.png); WIDTH: 32px; POSITION: absolute; TOP: 50%; HEIGHT: 67px}*/
+/*#wowslider-container A.ws_prev {MARGIN-TOP: -16px; DISPLAY: block; Z-INDEX: 1001; BACKGROUND-IMAGE: url(./arrows.png); WIDTH: 32px; POSITION: absolute; TOP: 50%; HEIGHT: 67px}*/
+#wowslider-container A.ws_next {
+	BACKGROUND-POSITION: 0px 0px; RIGHT: -7px
+}
+#wowslider-container A.ws_prev {
+	BACKGROUND-POSITION: 0px 100%; LEFT: -7px
+}
+#wowslider-container A.ws_next:hover {
+	BACKGROUND-POSITION: 100% 0px
+}
+#wowslider-container A.ws_prev:hover {
+	BACKGROUND-POSITION: 100% 100%
+}
+#wowslider-container .ws-title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 14px; Z-INDEX: 50; FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=70); LEFT: 0px; PADDING-BOTTOM: 10px; COLOR: #1e4553; BOTTOM: 7%; MARGIN-RIGHT: 5px; PADDING-TOP: 10px; FONT-FAMILY: Tahoma,Arial,Helvetica; POSITION: absolute; BACKGROUND-COLOR: #fff; opacity: 0.7
+}
+#wowslider-container .ws-title DIV {
+	FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+#wowslider-container .ws_bullets A IMG {
+	BORDER-RIGHT: #b8c4cf 2px solid; BORDER-TOP: #b8c4cf 2px solid; DISPLAY: block; LEFT: -1200px; VISIBILITY: hidden; BORDER-LEFT: #b8c4cf 2px solid; TEXT-INDENT: 0px; BORDER-BOTTOM: #b8c4cf 2px solid; POSITION: absolute; TOP: 12px
+}
+#wowslider-container .ws_bullets A:hover IMG {
+	VISIBILITY: visible
+}
+#wowslider-container .ws_bulframe DIV DIV {
+	OVERFLOW: visible; POSITION: relative; HEIGHT: 43px
+}
+#wowslider-container .ws_bulframe DIV {
+	OVERFLOW: hidden; WIDTH: 100px
+}
+#wowslider-container .ws_bulframe {
+	BORDER-RIGHT: #b8c4cf 2px solid; BORDER-TOP: #b8c4cf 2px solid; DISPLAY: none; OVERFLOW: hidden; BORDER-LEFT: #b8c4cf 2px solid; CURSOR: pointer; BORDER-BOTTOM: #b8c4cf 2px solid; POSITION: absolute; TOP: 25px
+}
+#wowslider-container .ws_bulframe SPAN {
+	POSITION: absolute
+}
